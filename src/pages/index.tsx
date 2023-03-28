@@ -2,7 +2,7 @@ import { styled } from "@/styles";
 import React from "react";
 
 const Button = styled("button", {
-  backgroundColor: "$rocketseat",
+  backgroundColor: "$green300",
   color: "White",
   borderRadius: 4,
   border: 0,
