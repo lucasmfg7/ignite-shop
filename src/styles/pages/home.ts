@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { styled } from "..";
 
 export const HomeContainer = styled("main", {
@@ -8,7 +9,7 @@ export const HomeContainer = styled("main", {
   marginLeft: "auto",
 });
 
-export const Product = styled("div", {
+export const Product = styled(Link, {
   background: "linear-gradient(180deg, #1ea483 0%, #7465d4 100%)",
   borderRadius: "8px",
   cursor: "pointer",
@@ -40,6 +41,7 @@ export const Product = styled("div", {
 
     strong: {
       fontSize: "$lg",
+      color: "$gray100",
     },
 
     span: {
