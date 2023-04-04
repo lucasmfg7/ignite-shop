@@ -33,6 +33,7 @@ const Home = ({ products }: HomeProps) => {
           className="keen-slider__slide"
           key={product.id}
           href={`/product/${product.id}`}
+          prefetch={false}
         >
           <Image
             src={product.imageUrl}
